@@ -1,4 +1,5 @@
 # loggy
-SLF4J like lambda function logger support 
-- take care even if underlaying logger implementation does not support
- lambda functions as arguments.
+- SLF4 like facade, does not support lambda as of 2021.
+- Support as lambda function as argument for lazy logging. 
+- Takes care even if underlaying logger implementation does not support
+lambda functions as arguments.
